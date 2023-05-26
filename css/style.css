@@ -1,0 +1,468 @@
+/* ========================= google font link start ============================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+/* ============================ google font link end============================== */
+/* =========================================Common css start ======================================= */
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container
+{
+    max-width: 1320px;
+    margin: auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.flex
+{
+    display: flex;
+}
+
+/* =========================================Common css end ======================================= */
+/* ========================================= nav css start ======================================= */
+nav .logo
+{
+    width: 50%;
+}
+
+nav
+{
+    padding: 28px 0px;
+    position: absolute;
+    width: 100%;
+}
+
+nav ul
+{
+    display: flex;
+    column-gap: 60px;
+    width: 50%;
+    align-items: center;
+}
+
+nav ul li a
+{
+    font-size: 18px;
+    font-weight:600 ;
+    transition: .4s;
+    color: #fff;
+}
+
+nav ul li a:hover
+{
+    color: #000;
+}
+/* ========================================= nav css end ======================================= */
+/* ========================================= banner css start======================================= */
+#banner
+{
+    background: url(../img/banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 462px 0px;
+}
+
+.text
+{
+    margin-left: 300px;
+}
+
+.text p
+{
+    font-size: 18px;
+    color: #FFC178;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.text h1
+{
+    font-size: 88px;
+    color: #ffffff;
+    width: 860px;
+    font-weight: 400;
+}
+
+.text h1 span
+{
+    font-size: 96px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/* ========================================= banner css end ======================================= */
+/* ========================================= about css start ======================================= */
+
+#about
+{
+    background: #000;
+}
+
+.about-img img
+{
+ width: 584px;
+ height: 715px;
+}
+
+.about-content
+{
+    padding: 286px 0px 295px ;
+    display: flex;
+    column-gap: 138px;
+}
+
+.about-text
+{
+    color: #fff;
+}
+
+.about-text h6
+{
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 78px;
+}
+
+.about-text h2
+{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 496px;
+}
+
+.about-text p
+{
+ width: 587px;
+ font-size: 14px;
+ font-weight: 600;
+ text-align: justify;
+}
+
+.about-text a
+{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 66px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.about-text a:hover
+{
+    color: #fff;
+    background: red;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+/* ========================================= about css end ======================================= */
+/* ========================================= information css start ======================================= */
+#information
+{
+    background-color: #000;
+}
+
+.information-content
+{
+    background: url(../img/information.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 295px 0px; */
+    text-align: center;
+}
+
+.information-content h5
+{
+    padding-top: 559px;
+    color: #FBD784;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.information-content h3
+{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 932px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.information-content p
+{
+    font-size: 15px;
+    color: #fff;
+    width: 893px;
+    margin: auto;
+    margin-top: 14px;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.information-content a
+{
+    
+    margin-top: 26px;
+    display: inline-block;
+    color: #FBD784;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 33px;
+    transition: .4s;
+
+}
+
+.information-content a:hover
+{
+    color: #fff;
+    background: red;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+/* ========================================= information css end ======================================= */
+/* ========================================= Culture css start ======================================= */
+#culture
+{
+    background: #000;
+}
+
+.culture-img img
+{
+ width: 584px;
+ height: 715px;
+}
+
+.culture-content
+{
+    padding: 295px 0px 199px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.culture-text
+{
+    color: #fff;
+    margin-right: 37px;
+}
+
+.culture-text h6
+{
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 78px;
+}
+
+.culture-text h2
+{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 663px;
+    margin-top: 19px;
+}
+
+.culture-text p
+{
+    width: 655px;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 19px;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.culture-text a
+{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 66px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.culture-text a:hover
+{
+    color: #fff;
+    background: red;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+/* ========================================= Culture css end ======================================= */
+/* ========================================= Footer css start ======================================= */
+#footer
+{
+    background-color: #000;
+}
+
+.footer-logo 
+{
+    width: 719px;
+}
+
+.footer-text p
+{
+    color: #fff;
+    font-size: 22px;
+    margin-right: 18px;
+}
+
+.footer-button a
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    background: #FFA343;
+    padding: 18px 67px;
+    border-radius: 10px;
+}
+
+.footer-menu
+{
+    margin-top: 82px;
+}
+
+.footer-icon h5
+{
+    color: #fff;
+    font-size: 36px;
+    width: 405px;
+    margin-bottom: 49px;
+}
+
+.footer-icon a
+{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 34px;
+    display: inline-block;
+}
+
+.fa-brands
+{
+    color: #fff;
+    width: 42px;
+    font-size: 24px;
+}
+
+.service
+{
+ margin-left: 255px;
+}
+
+.service p
+{
+    font-size: 20px;
+    color: #FFD1A0;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.service ul li a
+{
+    color: #fff;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.about
+{
+    margin-left: 104px;
+}
+
+.about p
+{
+    font-size: 20px;
+    color: #FFD1A0;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.about ul li a
+{
+    color: #fff;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.help
+{
+    margin-left: 139px;
+}
+
+.help p
+{
+    font-size: 20px;
+    color: #FFD1A0;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.help ul li a
+{
+    color: #fff;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.footer-end p
+{
+    padding: 153px 0px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D9D9D9;
+}
+
+
+
+
+/* ========================================= footer css end ======================================= */
